@@ -301,7 +301,7 @@ def get_floor_revenue_by_date(booking_table, num_floors, current_date):
 def get_room_revenue_by_date(booking_table, num_rooms, current_date):
     """ From the given booking data from file and specific current_date,
         Return a list of revenue separated by each room section.
-
+xcvbnm,./
         :param booking_table: booking data from file
         :param num_rooms: int
         :param current_date: int
@@ -396,7 +396,7 @@ print(booking_table)
 
 # Uncomment below if you want to test with hotel.txt
 # num_floors = 3
-# num_rooms = 5
+# num_rooms = 5 fghjkl;
 # booking_table = read_file('hotel.txt')
 
 print('1. Show booked rooms by date')
