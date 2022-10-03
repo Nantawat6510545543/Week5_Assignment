@@ -396,7 +396,7 @@ print(booking_table)
 
 # Uncomment below if you want to test with hotel.txt
 # num_floors = 3
-# num_rooms = 5
+# num_rooms = 5 asdfghjkl;
 # booking_table = read_file('hotel.txt')
 
 print('1. Show booked rooms by date')
