@@ -1,0 +1,8 @@
+
+    booked_room = [
+        [(i+1, j+1, curr_guests[i][j]) for j in range(len(curr_booking[i])) if
+         curr_booking[i][j] == 1] for i in range(len(curr_booking))]
+
+    get_booking_by_date = [
+        [(i + 1, j + 1) for j in range(len(curr_booking[i])) if
+         curr_booking[i][j] == 0] for i in range(len(curr_booking))]
