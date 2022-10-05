@@ -1,4 +1,3 @@
-# noinspection PyTypeChecker
 def read_file(filename):
     """ Read file with filename
         Read one line as one string and return nested list.
